@@ -7,23 +7,37 @@ body{
   	height:120px;
   	width:120px;
   	background-color: yellow;
-  	
+  	float:left;
   	}
 
   .dos {
   	height:120px;
   	width:120px;
   	background-color: dodgerblue;
+      float:left;
   }
 
   .tres {
   	height:120px;
   	width:120px;
   	background-color: crimson;
+      float:left;
 }
 .padre{
     width: 600px;
     height: 360px;
     border: 1px blue solid;
     float: left;
+}
+
+p{
+    color: green;
+    font-family: cursive;
+    font-size: 20px;
+    text-align: center;
+}
+a {  text-align: center;
+    font-family: cursive;
+    font-size: 20px;
+    color: purple;
 }
