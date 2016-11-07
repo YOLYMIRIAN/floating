@@ -1,0 +1,33 @@
+ body{
+ 	margin: 0px;
+ 	padding: 0px;
+ }
+  
+  .un {
+  	height:120px;
+  	width:120px;
+  	background-color: yellow;
+  	
+  	}
+
+  .dos {
+  	height:120px;
+  	width:120px;
+  	background-color: dodgerblue;
+  }
+
+  .tres {
+  	height:120px;
+  	width:120px;
+  	background-color: crimson;
+}
+.padre{
+    width: 600px;
+    height: 360px;
+    border: 1px blue solid;
+    float: block;
+    width: 950px;
+	border: 1px solid black;
+}
+width: 950px;
+	border: 1px solid black;

@@ -1,0 +1,30 @@
+h1{
+    color: darkorchid;
+    font-family: cursive;
+    font-size: 23px;
+    text-align: center;
+    
+}
+p{
+    color: forestgreen;
+    font-family: cursive;
+    font-size: 18px;
+    text-align: center;
+    
+}
+a {  text-align: center;
+    font-family: cursive;
+    font-size: 15px;
+    color: violet;
+    text-align: center;
+
+}
+div {
+   
+    height: 120px;
+    border: solid 2px red;
+    align-content: center
+   
+    
+    
+}

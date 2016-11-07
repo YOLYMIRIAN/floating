@@ -1,0 +1,37 @@
+body{
+ 	margin: 0px;
+ 	padding: 0px;
+ }
+  
+  .un {
+  	height:120px;
+  	width:120px;
+  	background-color: yellow;
+  	
+  	}
+
+  .dos {
+  	height:120px;
+  	width:120px;
+  	background-color: dodgerblue;
+  }
+
+  .tres {
+  	height:120px;
+  	width:120px;
+  	background-color: crimson;
+}
+.padre {
+    width: 600px;
+    border: 1px blue solid;
+    
+     overflow: auto;
+}
+
+
+    
+p{
+    font-family: sans-serif;
+    font-size: 18px;
+    color: crimson;
+}
