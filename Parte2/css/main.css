@@ -1,34 +1,21 @@
-body{
- 	margin: 0px;
- 	padding: 0px;
+div:not(.contenedor) {
+ 	height: 100px;
+ 	width: 200px;
+ 	float:left;
+ 	
  }
-  
-  .un {
-  	height:120px;
-  	width:120px;
-  	background-color: yellow;
-  	float:left;
-  	}
-
-  .dos {
-  	height:120px;
-  	width:120px;
-  	background-color: dodgerblue;
-      float:left;
-  }
-
-  .tres {
-  	height:120px;
-  	width:120px;
-  	background-color: crimson;
-      float:left;
-}
-.padre{
-    width: 600px;
-    height: 360px;
-    border: 1px blue solid;
-    float: left;
-}
+ .contenedor {
+ 	border: 1px solid grey;
+ }
+ .amarillo{
+ 	background-color: yellow;
+ }
+ .azul {
+ 	background-color: #0066CC;
+ }
+ .pink {
+ 	background-color: #CC0033;
+ }
 
 p{
     color: green;

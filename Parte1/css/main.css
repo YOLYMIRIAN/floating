@@ -1,34 +1,25 @@
- body{
- 	margin: 0px;
- 	padding: 0px;
+div:not(.contenedor) {
+ 	height: 100px;
+ 	width: 200px;
+ 	
  }
-  
-  .un {
-  	height:120px;
-  	width:120px;
-  	background-color: yellow;
-  	
-  	}
+ .contenedor {
+ 	border: 1px solid grey;
+ }
+ .amarillo{
+ 	background-color: yellow;
+ }
+ .azul {
+ 	background-color: #0066CC;
+ }
+ .pink {
+ 	background-color: #CC0033;
+ }
 
-  .dos {
-  	height:120px;
-  	width:120px;
-  	background-color: dodgerblue;
-  }
 
-  .tres {
-  	height:120px;
-  	width:120px;
-  	background-color: crimson;
-}
-.padre{
-    width: 600px;
-    height: 360px;
-    border: 1px blue solid;
-    float: block;
-    width: 950px;
-	border: 1px solid blue;
-}
+
+
+
 
 
 p{
