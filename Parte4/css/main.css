@@ -1,34 +1,22 @@
-body{
- 	margin: 0px;
- 	padding: 0px;
+div:not(.contenedor) {
+ 	height: 100px;
+ 	width: 200px;
+ 	float:left;
+ 	
  }
-  
-  .un {
-  	height:120px;
-  	width:120px;
-  	background-color: yellow;
-  	overflow: auto;
-  	}
-
-  .dos {
-  	height:120px;
-  	width:120px;
-  	background-color: dodgerblue;
-      overflow: auto;
-  }
-
-  .tres {
-  	height:120px;
-  	width:120px;
-  	background-color: crimson;
-      overflow: auto;
-}
-.padre {
-    width: 600px;
-    border: 1px blue solid;
-    
-     overflow: auto;
-}
+ .contenedor {
+ 	border: 1px solid blue;
+        overflow: auto;
+ }
+ .un {
+ 	background-color: yellow;
+ }
+ .dos {
+ 	background-color: dodgerblue;
+ }
+ .tres {
+ 	background-color: crimson;
+ }
 
 
     
